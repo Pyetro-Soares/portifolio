@@ -119,6 +119,7 @@ article>p{
   flex-flow: column nowrap;
 }
 #campProj{
+  padding-top: 20px;
   display: flex;
   flex-flow: column nowrap;
   width: 260px;
@@ -142,16 +143,17 @@ article>p{
   padding-left: 30px;
   background-color: #cab68994;
 }
-#campProj>p, #campProj2>p, #campPorj3>p{
+#campProj>p, #campProj2>p, #campProj3>p{
   background-color: #131313;
   padding-left: 10px;
   color: #cab789;
+  padding-top: 20px;
 }
 #campProj2{
   margin-bottom: 30px;
   margin-top: 30px;
   width: 260px;
-  height: 400px;
+  height: 330px;
   background-color: #131313;
   justify-content: center;
   align-items: center;
@@ -167,6 +169,59 @@ article>p{
   background-repeat: no-repeat;
   background-color: #131313;
 }
-#campProj{
-  padding-top: 20px;
+#campProj3{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 260px;
+  height: 350px;
+  background-color: #131313;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#camp3{
+  background-image: url(imagens/Captura\ de\ tela\ 2026-08-27\ 012656.png);
+  width: 250px;
+  height: 200px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #131313;
+}
+#campTech{
+  width: 260px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #131313;
+}
+#tech1{
+  background-color: #fff;
+  width: 220px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  border-radius: 30px;
+  border: 3px solid #808080;
+}
+#asid>h1{
+  margin-bottom: 20px;
+  border-top: 1px solid #6e6e6e;
+  border-bottom: 1px solid #6e6e6e;
+  background-color: #cab689bd;
+}
+#tech1>div{
+  background-image: url(imagens/HTML.jpg);
+  width: 200px;
+  height: 200px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #131313;
+  margin: auto;
 }
