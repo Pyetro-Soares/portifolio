@@ -17,27 +17,13 @@ body{
   line-height: 1.5em;
 }
 header{
-  min-width: 200px;
-  max-width: 98vw;
-  min-height: 200px;
-  color: var(--cor-muito-clara);
   background-color: #131313;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: end;
-  align-items: center;
-}
-#imaDoPort{
-  min-width: 76vw;
-  max-width: 96vw;
-  height: 44vh;
-  flex: auto;
-  align-self: center ;
-  background-color: #f8f4f4;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url(imagens/Gemini_Generated_Image_ec7y54ec7y54ec7y.jpg);
+  height: 300px;
+  background-color: #131313;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 nav#menu{
   position: sticky;
