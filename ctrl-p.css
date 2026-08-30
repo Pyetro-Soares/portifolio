@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tektur:wght@400..900&display=swap');
 *{
   margin: 0px;
   padding: 0px;
@@ -56,6 +57,9 @@ nav#menu ul{
   background-color: #131313;
 }
 nav#menu button{
+  font-size: 1.5em;
+  font-family: Tektur;
+  cursor: pointer;
   border-radius: 50vh;
   border: 2px solid #cab789;
   font-size: 1.1em;
@@ -66,7 +70,13 @@ nav#menu button{
   transition-duration: 0.5s;
   color: var(--cor-muito-clara);
   margin: 5px;
-
+  transition-duration: 1s;
+}
+nav#menu button:hover{
+  transition-duration: 1s;
+  background-color: #cab789;
+  border: 2px solid #3d3d3d;
+  color: #131313;
 }
 #fot{
   margin: auto;
@@ -108,9 +118,11 @@ article>h2{
   background-color: #00000073;
   padding: 15px;
   border-top: 1px solid #13131385;
-
+  font-family: Nunito;
+  font-weight: 800;
 }
 article>p{
+  font-family: Nunito;
   background-color: #0000002d;
   text-align: justify;
   min-width: 200px;
@@ -139,9 +151,10 @@ article>p{
   padding-top: 20px;
   flex-flow: column nowrap;
   width: 260px;
-  height: 190px;
+  height: 220px;
   margin: auto;
   background-color: #131313;
+  margin-bottom: 40px;
 }
 #camp{
   background-image: url(imagens/Captura\ de\ tela\ 2026-08-27\ 012340.png);
@@ -153,18 +166,44 @@ article>p{
   margin: auto;
 }
 #asid>h1{
+  font-size: 2.2em;
+  line-height: 30px;
+  font-family: Tektur;
   border-top: 1px solid #13131381;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   background-color: #cab68994;
 }
+#campProj>a, #campProj2>a, #campProj3>a{
+  text-decoration: none;
+  border-radius: 50vh;
+  border: 1px solid #cab789;
+  text-align: center;
+  background-color: #131313;
+  color: #cab789;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition-duration: 1s;
+  font-family: Tektur;
+}
+#campProj>a:hover, #campProj2>a:hover, #campProj3>a:hover{
+  transition-duration: 1s;
+  background-color: #cab789;
+  border: 2px solid #3d3d3d;
+  color: #131313;
+}
 #campProj>p, #campProj2>p, #campProj3>p{
   background-color: #131313;
   padding-left: 10px;
   color: #cab789;
   padding-top: 20px;
+  font-family: Tektur;
 }
+
 #campProj2{
   margin-top: 10px;
   padding: 10px;
@@ -174,7 +213,7 @@ article>p{
   margin-bottom: 30px;
   margin-top: 30px;
   width: 260px;
-  height: 330px;
+  height: 360px;
   background-color: #131313;
   justify-content: center;
   align-items: center;
@@ -199,13 +238,13 @@ article>p{
   margin-bottom: 30px;
   margin-top: 30px;
   width: 260px;
-  height: 290px;
+  height: 310px;
   background-color: #131313;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 #camp3{
   margin: auto;
@@ -301,10 +340,12 @@ aside{
   margin-top: 30px;
 }
 aside>h1{
+  font-family: Tektur;
   background-color: #0000005d;
   padding: 10px;
   padding-left: 30px;
   border-top: 1px solid #000000;
+  border-bottom: 1px solid #000;
 }
 aside>p{
   padding: 10px;
@@ -316,10 +357,13 @@ footer{
   background-color: #1b1f23;
 }
 footer>p{
+  text-align: center;
   background-color: #cab6891e;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 1.3em;
+  color: #cab689b6;
 }
 footer>div{
   border-bottom: 2px solid #cab68993;
@@ -337,6 +381,7 @@ img{
   height: 100px;
 }
 #fimtxt{
+  font-size: 1em;
   color: #cab68993;
   padding-bottom: 40px;
   padding-top: 40px;
