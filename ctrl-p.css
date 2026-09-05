@@ -41,7 +41,7 @@ nav#menu ul{
   flex-flow: row nowrap;
   justify-content: center;
   background-position: left center;
-  background-color: #131313;
+  background-color: #13131300;
 }
 nav#menu button{
   font-size: 1.5em;
@@ -98,6 +98,7 @@ nav#menu button:hover{
   margin-bottom: 5px;
 }
 article{
+  margin-top: 20px;
   line-height: 1.7em;
   background-color: var(--cor-muito-clara);
   margin-bottom: 10px;
@@ -416,6 +417,39 @@ footer>div{
   padding-left: 0px;
   text-align: center;
   background-color: #cab68957;
+}
+#linkedin{
+  height: 130px;
+  background-color: #0C64C5;
+}
+#linkedin>a{
+  height: 130px;
+  width: 80vw;
+}
+#linkedin>a>div{
+  margin-top: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1su6Lkz9jxXyFKFKt42BnSf1YCpU3651hD08ONZu9dQ&s=10);
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 1s;
+}
+#linkedin>a>div:hover{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSLpR1cW7tRgU_oPO7KZGELcmQtvgDvIPlCNWGpe2NA&s=10);
+  border-radius: 50vh;
+  transition-duration: 1s;
+}
+footer>h2{
+  background-color: #cab68993;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #13131344;
+  border-top: 1px solid #1313133a;
+  color: #25d3659c;
 }
 .hidden{
   opacity: 0;
