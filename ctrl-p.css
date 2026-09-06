@@ -98,7 +98,7 @@ nav#menu button:hover{
   margin-bottom: 5px;
 }
 article{
-  margin-top: 20px;
+  margin-top: 25px;
   line-height: 1.7em;
   background-color: var(--cor-muito-clara);
   margin-bottom: 10px;
@@ -244,7 +244,7 @@ article>p{
 #camp3{
   transition-delay: 1.3s;
   margin: auto;
-  background-image: url(imagens/Captura\ de\ tela\ 2026-08-27\ 012656.png);
+  background-image: url(imagens/Captura\ de\ tela\ 2026-09-06\ 151405.png);
   width: 250px;
   height: 200px;
   background-position: center center;
@@ -463,11 +463,24 @@ footer>h2{
   transform: translateX(0);
   transition-duration: 0.5s;
 }
-@media screen and (min-width:868px) {
+@media screen and(min-width:760px) {
+  #divflex{
+    height: 110vh;
+    margin-bottom: 100px;
+  }
+  #campdafot{
+    height: 40vw;
+    width: 40vw;
+  }
+  #fot{
+    height: 40vw;
+    width: 40vw;
+  }
+}
+@media screen and (min-width:750px) {
   #divflex{
     height: 100vw;
     width: 95vw;
-    height: 80vh;
     margin-top: 10px;
     margin-left: 15px;
   }
@@ -546,5 +559,15 @@ footer>h2{
     margin-bottom: 0px;
     margin-top: 0px;
     flex: auto;
+  }
+}
+@media screen and (min-width:320px) {
+  #divflex{
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 545px) {
+  #divflex{
+    height: 70vh;
   }
 }
