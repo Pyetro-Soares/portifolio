@@ -41,7 +41,7 @@ nav#menu ul{
   height: 40px;
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   background-position: left center;
